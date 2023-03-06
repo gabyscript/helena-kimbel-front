@@ -1,0 +1,56 @@
+
+#obra-container {
+    background: #f6f6f6;
+    
+}
+
+/*
+
+
+*/
+
+@media only screen and (max-width: 540px) {
+
+    #obra-container {
+        height: calc(50em + 50vh);
+    }
+
+    #obra-card-img {
+        height: calc(20em + 10vh);
+    }
+
+    #work-img {
+        width: calc(15em + 10vw);
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+    
+    #obra-container {
+        height: calc(60em + 60vh);
+    }
+
+    #obra-card-img {
+        height: calc(20em + 40vh);
+    }
+    
+    #work-img {
+        width: calc(30em + 10vw);
+    }
+   
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    #obra-container {
+        height: calc(30em + 60vh);
+    }    
+
+    #work-img {
+        width: calc(22em + 10vw);
+    }
+
+
+   
+}

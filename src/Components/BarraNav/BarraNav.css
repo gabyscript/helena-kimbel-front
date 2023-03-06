@@ -1,0 +1,45 @@
+
+.home-link {
+    color: #f6f6f6; 
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color:#f6f6f6;
+}
+
+.nav-links {
+    color: #f6f6f6;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+}
+
+.nav-links:hover {
+    color: #f40e98 ;
+    letter-spacing: 1px;
+    transition: 2s;
+}
+
+
+@media only screen and (max-width:540px ) {
+
+    .home-link {
+        font-size: 1.3em;
+    }
+    
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+    .home-link {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .home-link {
+        font-size: 1.8em;
+    }
+}
+

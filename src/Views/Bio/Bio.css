@@ -1,0 +1,50 @@
+
+#bio-container {    
+    background-color: #f6f6f6;
+}
+
+#presentation {
+    text-align: justify;
+    text-align-last: center;
+}
+
+@media only screen and (max-width: 540px) {
+
+    #bio-container {
+        height: calc(80em + 50vh);
+    }
+
+    #bio-image {
+        max-width: 70%;
+    }
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+    #bio-container {
+        height: calc(10em + 95vh);
+    }
+
+    #bio-image {
+        max-width: 45%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    #bio-container {
+        height: calc(10em + 100vh);
+    }
+
+    #bio-image {
+        max-width: 85%;
+    }
+
+   
+}
+
+
+
+

@@ -1,0 +1,27 @@
+
+#form-container {
+    
+    background: #f6f6f6;
+}
+
+@media only screen and (max-width: 540px) {
+
+    #form-container {
+        height: 115vh;
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+    #form-container {
+        height: 75vh;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    #form-container {
+        height: 120vh   ;
+    }
+}

@@ -1,0 +1,62 @@
+
+#gallery-container {    
+    background-color: #f6f6f6;
+    
+}
+
+#card {
+    height: 80vh;
+}
+
+@media only screen and (max-width: 540px) {
+  
+    #gallery-container {
+        min-height: calc(110em + 110vh);
+    }
+
+    #card {
+        height: calc(40em + 10vh);
+    }
+
+    #gallery-img {
+        max-width: calc(8em + 38vw);
+    }
+
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+    #gallery-container {
+        min-height: calc(110em + 110vh);
+    }
+
+    #card {
+        height: calc(40em + 10vh);
+    }
+
+    #gallery-img {
+        width: calc(25em + 1vw);
+    }
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    #gallery-container {
+        height: calc(10em + 110vh);
+    }
+
+    #card {
+        height: calc(40em + 18vh);
+    }
+
+    #gallery-img {
+        width: calc(1em + 20vw);
+    }
+
+
+   
+}
