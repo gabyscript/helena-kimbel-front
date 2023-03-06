@@ -8,10 +8,8 @@ const Footer = () => {
 
     return(
         <>
-            <Container fluid className="bg-dark d-flex flex-row justify-content-evenly align-items-center" id="footer">
-                <Container></Container>
-                <Container></Container>
-                <Container></Container>
+            <Container fluid className="bg-dark d-flex flex-row justify-content-center align-items-center" id="footer">
+                
                 <Container className="bg-dark d-flex flex-row justify-content-evenly align-items-center">
                     <a href="https://www.instagram.com" target="__BLANK">
                         <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" color="white" fixedWidth/>

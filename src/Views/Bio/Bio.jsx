@@ -16,6 +16,11 @@ const Bio = () => {
         <>
             <BarraNav />
             <Container fluid id="bio-container" className="d-flex flex-column justify-content-center">
+                <Row>
+                    <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                        
+                    </Col>
+                </Row>
                 <Row className="align-items-center">
                     
                     <Col xs={12} sm={12} md={12} lg={4} xl={{offset:1}} className="g-4">                        

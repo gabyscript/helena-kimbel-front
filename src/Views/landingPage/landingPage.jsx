@@ -35,16 +35,16 @@ const LandingPage = () => {
                 </a>                                               
             </Container>
             <Container fluid className="d-flex flex-column justify-content-evenly align-items-center" id="links-container" >                
-                <NavLink className="page-links" to="/bio">                        
+                <NavLink id="page-links" className="mb-2" to="/bio">                        
                     BIO
                 </NavLink>               
-                <NavLink className="page-links" to="/galeria">
+                <NavLink id="page-links" className="mb-2" to="/galeria">
                     GALERÍA
                 </NavLink>
-                <NavLink className="page-links" to="/contacto">
+                <NavLink id="page-links" className="mb-2" to="/contacto">
                     CONTACTO
                 </NavLink>
-                <NavLink className="page-links" to="/faq">
+                <NavLink id="page-links" className="mb-2" to="/faq">
                     FAQ
                 </NavLink>                       
             </Container>

@@ -46,11 +46,11 @@
 @media only screen and (min-width: 992px) {
 
     #gallery-container {
-        height: calc(10em + 110vh);
+        height: calc(10em + 140vh);
     }
 
     #card {
-        height: calc(40em + 18vh);
+        height: calc(10em + 80vh);
     }
 
     #gallery-img {

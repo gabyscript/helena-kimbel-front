@@ -11,7 +11,7 @@
 @media only screen and (max-width: 540px) {
 
     #bio-container {
-        height: calc(80em + 50vh);
+        height: calc(90em + 20vh);
     }
 
     #bio-image {

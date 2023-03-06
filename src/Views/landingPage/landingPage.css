@@ -15,12 +15,12 @@
     color: #f6f6f6; 
 }
 
-.page-links {
+#page-links {
     color: #f6f6f6;
     font-family: 'Playfair Display', serif;
 }
 
-.page-links:hover {    
+#page-links:hover {    
     transition: 3s;
     color: #f40e98
 }
@@ -55,7 +55,7 @@
         height: 45vh;        
     }    
 
-    .page-links {
+    #page-links {
         text-decoration: none;
         display: inline-flex;
         justify-content: center;
@@ -105,7 +105,7 @@
         height: 45vh;        
     }    
 
-    .page-links {
+    #page-links {
         text-decoration: none;
         display: inline-flex;
         justify-content: center;
@@ -124,7 +124,7 @@
 
 
     #landing-container {
-        height: 130vh;
+        height: 120vh;
         
     }
 
@@ -153,11 +153,11 @@
     }
 
     #links-container {
-        width: 60vw;
-        height: 50vh;
+        width: 50vw;
+        height: 30vh;
     }
 
-    .page-links {
+    #page-links {
         text-decoration: none;
         display: inline-flex;
         justify-content: center;
@@ -166,11 +166,11 @@
         height: 65px;
         border: 1px solid white;
         border-radius: 50px;  
-        font-size: 1.35em;     
+        font-size: 1em; 
 
     }
 
-    .page-links:hover {
+    #page-links:hover {
         letter-spacing: 4px;
         transition: 3s;
         color: #f40e98

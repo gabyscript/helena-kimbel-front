@@ -69,11 +69,11 @@ const Galeria = () => {
                                     </IKContext>                                    
                                 </Container>                               
                                 <Container >
-                                    <h4>{work.nombre}</h4>
+                                    <h4 className="fw-bold">{work.nombre}</h4>
                                 </Container>
                                 <Container>
-                                    <h4>Fecha de creación: {work.fecha} </h4>
-                                    <h4>Valor: ${work.valor}</h4>
+                                    <h5>Fecha de creación: {work.fecha} </h5>
+                                    <h5>Valor: ${work.valor}</h5>
                                 </Container>
                                 <Container>
                                     <Button variant="dark" onClick={() => {navigate(`/galeria/${work.id}`)}}>Ver detalle</Button>
