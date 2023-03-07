@@ -17,15 +17,6 @@ const Galeria = () => {
     const [totalPages, setTotalPages] = useState()
     const navigate = useNavigate();
 
-    const [imgWidth, setImgWidth] = useState()
-
-    /*const calcWidth = () => {
-        if (window.innerWidth < 540 ) {
-            setImgWidth(window.innerWidth*0.78)
-            console.log(imgWidth)
-        }
-    }*/
-
     const handleChangePage = useCallback((page) => {
         setPage(page)
     }, [])
@@ -37,8 +28,8 @@ const Galeria = () => {
             const res = await GetObrasList(page);
             setTotalPages(res.total)
             setWorks(res.data);
-          }
-          fetchWorks();
+        }
+        fetchWorks();
         window.scrollTo(0,0)
     }, [page])
 
@@ -64,6 +55,8 @@ const Galeria = () => {
                                 <Container className="d-flex justify-content-center align-items-center">
                                     <IKContext urlEndpoint="https://ik.imagekit.io/gabyscript">
                                         <IKImage id="gallery-img" path={work.imagen}  
+                                        transformation={[{width:400}]}
+                                        lqip={{active:true}}
                                         loading="lazy"
                                         />
                                     </IKContext>                                    
@@ -72,7 +65,7 @@ const Galeria = () => {
                                     <h4 className="fw-bold">{work.nombre}</h4>
                                 </Container>
                                 <Container>
-                                    <h5>Fecha de creación: {work.fecha} </h5>
+                                    <h5>Fecha de creación: {(new Date(work.fecha)).toLocaleDateString()}</h5>
                                     <h5>Valor: ${work.valor}</h5>
                                 </Container>
                                 <Container>

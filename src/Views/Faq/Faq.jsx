@@ -2,7 +2,7 @@
 import './Faq.css';
 import BarraNav from '../../Components/BarraNav/BarraNav';
 import Footer from '../../Components/Footer/Footer';
-import {Container, Accordion} from 'react-bootstrap';
+import {Container, Accordion, Row, Col} from 'react-bootstrap';
 import { useEffect } from 'react';
 
 const Faq = () => {
@@ -15,8 +15,14 @@ const Faq = () => {
 
         <>
             <BarraNav/>
-            <Container fluid id="faq-container" className="d-flex flex-column justify-content-center align-items-center">
-                <h4 className="fs-1 fw-bolder mb-5">FAQ: Preguntas frecuentes</h4>
+            <Container fluid id="faq-container" className="d-flex flex-column justify-content-center">
+                <Row>
+                    <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                        <h4 className="fs-1 fw-bolder">FAQ: Preguntas frecuentes</h4>
+                        <hr className="pb-3"/>
+                    </Col>
+                </Row>
+                
                 <Accordion flush defaultActiveKey="0" className="px-2">
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>¿Cómo pedir una obra personalizada?</Accordion.Header>

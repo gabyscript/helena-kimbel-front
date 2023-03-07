@@ -6,7 +6,7 @@
 @media only screen and (max-width: 520px) {
 
     #faq-container {
-        height: calc(45em + 45vh);
+        height: calc(40em + 40vh);
     }
 }
 

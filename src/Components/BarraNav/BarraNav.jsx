@@ -9,7 +9,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 const BarraNav = () =>{
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">            
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" id="navbar">            
             <Container>
                 <Navbar.Brand className="w-25">
                     <NavLink to="/home" className="home-link">

@@ -21,7 +21,7 @@ export const MyPagination = ({total, current, onChangePage}) => {
         items.push(<Pagination.Next key="next" onClick={() => onChangePage(current + 1)} />)
     }
     return (
-        <Pagination>{items}</Pagination>
+        <Pagination className="">{items}</Pagination>
     )
 }
 

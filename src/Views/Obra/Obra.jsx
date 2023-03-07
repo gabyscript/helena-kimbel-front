@@ -42,7 +42,8 @@ const Obra = () => {
                                     <Card className="d-flex justify-content-center align-items-center" id="obra-card-img">
                                         <IKContext urlEndpoint="https://ik.imagekit.io/gabyscript">
                                             <IKImage id="work-img" path={w.imagen}  
-                                            
+                                            lqip={{active:true}}
+                                            loading="lazy"
                                             />
                                         </IKContext>    
                                     </Card>
@@ -50,14 +51,17 @@ const Obra = () => {
                                 <Col xs={12} sm={12} md={12} lg={6} xl={6} className="d-flex flex-column justify-content-evenly align-items-center">
                                     <Container >
                                         <Card id="obra-card-info" className="d-flex flex-column justify-content-evenly align-items-center">
-                                            <Card.Text>{w.categoria}</Card.Text>
-                                            <Card.Text>{w.subcategoria}</Card.Text>
-                                            <Card.Text>{w.tecnica}</Card.Text>
-                                            <Card.Text>{w.fecha}</Card.Text>
-                                            <Card.Text>{w.medidas}</Card.Text>
-                                            <Card.Text>{w.materiales}</Card.Text>
-                                            <Card.Text>{w.valor}</Card.Text>
-                                            <Card.Text>{w.descrip} </Card.Text>
+                                            <Card.Text>Categoría: {w.categoria}.</Card.Text>
+                                            <Card.Text>Subcategoría: {w.subcategoria}.</Card.Text>
+                                            <Card.Text>Técnica: {w.tecnica}.</Card.Text>
+                                            <Card.Text>Fecha: {(new Date(w.fecha)).toLocaleDateString()}</Card.Text>
+                                            <Card.Text>Medidas: {w.medidas} cm.</Card.Text>
+                                            <Card.Text>Materiales: {w.materiales}.</Card.Text>
+                                            <Card.Text>Valor: ${w.valor}</Card.Text>
+                                            <Container>
+                                                <Card.Text id="work-desc">{w.descrip}.</Card.Text>
+                                            </Container>
+                                            
                                             <Container>
                                                 <Button variant="dark" onClick={() => {navigate(`/galeria`)}}>Volver a galería</Button>
                                             </Container>

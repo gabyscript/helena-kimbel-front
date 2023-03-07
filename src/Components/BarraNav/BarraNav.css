@@ -9,19 +9,19 @@
 }
 
 .nav-links {
-    color: #f6f6f6;
+    
     font-family: 'Playfair Display', serif;
     font-size: 1.3em;
 }
 
 .nav-links:hover {
-    color: #f40e98 ;
+    color: #f6f6f6 ;
     letter-spacing: 1px;
     transition: 2s;
 }
 
 
-@media only screen and (max-width:540px ) {
+@media only screen and (max-width:540.9px ) {
 
     .home-link {
         font-size: 1.3em;
@@ -37,6 +37,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+
+    #navbar {
+        height: 12vh;
+    }
 
     .home-link {
         font-size: 1.8em;
