@@ -44,7 +44,7 @@ const Galeria = () => {
             <Container fluid id="gallery-container" className="pt-5 d-flex flex-column justify-content-center">
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-                        <h5 className="fs-2 fw-bold pt-4">Mis obras</h5>
+                        <h5 className="fs-2 fw-bold pt-5">Mis obras</h5>
                         <hr className="pb-3"/>
                     </Col>
                 </Row>

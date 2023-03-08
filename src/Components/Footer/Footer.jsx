@@ -23,8 +23,8 @@ const Footer = () => {
                 </Container>            
             </Container>
             <Container fluid className="bg-dark d-flex flex-column justify-content-center align-items-center" id="info-footer">
-                <h6 className="text-white"> Derechos Reservados 2023 - Helena Kimbel</h6>
-                <h6 className="text-white"> Página por GabyScript</h6>
+                <h6 className="text-white"> 2023 Helena Kimbel - Derechos reservados </h6>
+                <h6 className="text-white"> Página creada por <a href="https://gabriel-preller-dev.netlify.app/" target="__BLANK">GabyScript</a></h6>
             </Container>
         </>
         

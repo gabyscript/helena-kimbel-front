@@ -14,11 +14,14 @@
 @media only screen and (max-width: 540px) {
 
     #obra-container {
-        height: calc(50em + 50vh);
+        height: clamp(160vh, 184vh, 200vh)
     }
 
     #obra-card-img {
         height: calc(20em + 10vh);
+    }
+    #obra-card-info {
+        height: clamp(75vh, 87vh, 100vh)
     }
 
     #work-img {
@@ -29,11 +32,15 @@
 @media only screen and (min-width: 541px) and (max-width: 991.9px) {
     
     #obra-container {
-        height: calc(60em + 60vh);
+        height: clamp(140vh, 160vh, 180vh);
     }
 
     #obra-card-img {
-        height: calc(20em + 40vh);
+        height: clamp(60vh, 80vh, 100vh);
+    }
+
+    #obra-card-info {
+        height: clamp(30vh, 45vh, 50vh)
     }
     
     #work-img {

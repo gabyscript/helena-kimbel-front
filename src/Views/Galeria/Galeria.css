@@ -11,11 +11,11 @@
 @media only screen and (max-width: 540px) {
   
     #gallery-container {
-        min-height: calc(110em + 110vh);
+        min-height: clamp(110vh, 135vh, 160vh);
     }
 
     #card {
-        height: calc(40em + 10vh);
+        height: clamp(60vh, 90vh, 95vh);
     }
 
     #gallery-img {
@@ -28,11 +28,11 @@
 @media only screen and (min-width: 541px) and (max-width: 991.9px) {
 
     #gallery-container {
-        min-height: calc(110em + 110vh);
+        min-height: clamp(110vh, 135vh, 160vh);
     }
 
     #card {
-        height: calc(40em + 10vh);
+        height: clamp(55vh, 75vh, 95vh);
     }
 
     #gallery-img {
